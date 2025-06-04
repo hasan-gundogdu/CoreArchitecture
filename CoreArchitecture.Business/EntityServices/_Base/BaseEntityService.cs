@@ -24,7 +24,7 @@ namespace CoreArchitecture.Business.EntityServices._Base
         {
             _repository = repository ?? throw new ArgumentNullException(nameof(repository));
             _unitOfWork = unitOfWork ?? throw new ArgumentNullException(nameof(unitOfWork));
-            _mapper = mapper ?? throw new ArgumentNullException(nameof(_mapper));
+            _mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
         }
 
         // GetById
